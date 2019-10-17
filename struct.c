@@ -18,3 +18,8 @@ typedef struct student {
   float             mean;
   struct student*   next;
 } student;
+
+// TODO: le due operazioni per aggiungere/rimuovere in una lista
+// @params: *h testa dello studente; *s studente da aggiungere in coda
+student add(student* h, student* s) {}
+student remove(student* h, student* s) {}
